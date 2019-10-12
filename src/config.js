@@ -1,11 +1,13 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
-      REGION: "EU (London)",
-      BUCKET: "wtc-notes"
+      REGION: "us-east-2",
+      BUCKET: "wtc-notes-app-uploads"
+      
     },
     apiGateway: {
-      REGION: "https://a90uoqc13m.execute-api.us-east-2.amazonaws.com/prod",
-      URL: "us-east-2"
+      REGION: "us-east-2",
+      URL: "https://a90uoqc13m.execute-api.us-east-2.amazonaws.com/prod"
     },
     cognito: {
       REGION: "us-east-2",
